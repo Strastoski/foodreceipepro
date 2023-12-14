@@ -3,7 +3,7 @@ import { ReactComponent as MySVGIcon } from './logo.svg';
 
 
 
-const Login = () => {
+const ForgotPass = () => {
     
   return (
 
@@ -29,7 +29,7 @@ const Login = () => {
 
 
       <div className="right-container">
-        <h1 className='Head'>Welcome</h1>
+        <h1 className='Head'>Forgot Password?</h1>
         <h6 className='title'>Log in into your existing account</h6>
 
         <div className="line"></div>
@@ -70,4 +70,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default ForgotPass

@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Login from "./Page/Login";
 import Register from "./Page/Register";
+import ForgotPass from "./Page/ForgotPass";
 
 
 function App() {  
@@ -16,8 +17,15 @@ function App() {
           path="/register"
           element={<Register />}
         />        
+
+        <Route
+         path="/forgotpass"
+         element={<ForgotPass />}
+        />
+        
       </Routes>     
   );
 }
 
 export default App
+
