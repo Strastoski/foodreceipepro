@@ -2,6 +2,9 @@ import { Route, Routes } from "react-router-dom";
 import Login from "./Page/Login";
 import Register from "./Page/Register";
 import ForgotPass from "./Page/ForgotPass";
+import Home from "./Page/Home";
+
+
 
 
 function App() {  
@@ -23,6 +26,11 @@ function App() {
          element={<ForgotPass />}
         />
         
+        <Route
+         path="/home"
+         element={<Home />}
+        />
+
       </Routes>     
   );
 }

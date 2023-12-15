@@ -30,7 +30,7 @@ const ForgotPass = () => {
 
       <div className="right-container">
         <h1 className='Head'>Forgot Password?</h1>
-        <h6 className='title'>Log in into your existing account</h6>
+        <h6 className='title'></h6>
 
         <div className="line"></div>
 

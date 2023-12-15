@@ -1,46 +1,46 @@
 body {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
- font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
- font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
- monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 .loginflex {
- display: flex;
- /* height: 150vh; */
+  display: flex;
+  /* height: 150vh; */
 }
 
 .left-container {
- /* height: 100%; */
- width: 50%;
+  /* height: 100%; */
+  width: 50%;
 }
 
 .right-container {
- /* height: 100%; */
- width: 50%;
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
+  /* height: 100%; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .Yellowlayer {
- background-color :#EFC81A;
- height: 190.1vh;
- width: 50%;
- position: absolute;
- top: 0;
- left: 0;
- opacity: 70%;
+  background-color: #efc81a;
+  height: 190.1vh;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 70%;
 }
 
 .svg-container {
@@ -54,22 +54,21 @@ code {
   align-items: center;
 }
 
-
 .Head {
- color: #EFC81A;
- margin-bottom: -13px;
+  color: #efc81a;
+  margin-bottom: -13px;
 }
 
 .title {
- color: grey;
- opacity: 60%;  
- font-family: Inter;
- font-size: 18px;
- font-weight: 400;
- line-height: 28px;
- letter-spacing: 0em;
- text-align: left;
- justify-content: center;
+  color: grey;
+  opacity: 60%;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  justify-content: center;
 }
 
 .parentline {
@@ -86,217 +85,63 @@ code {
   width: 160px;
   opacity: 15%;
   margin: 3px 0;
- }
+}
 
 .line {
- background-color: grey;
- height: 1px;
- width: 70%;
- opacity: 15%;
-}
-
-.mail {
- width: 70%;
- color: #696F79;
- font-weight: 500;
- margin-bottom: 20px;
- margin-top: 5px;
-}
-
-.password {
- width: 70%;
- color: #696F79;
- font-weight: 500;
- margin-bottom: 8px;
- margin-top: 20px;
-}
-
-.border {
- border: 1px solid black;
- border-radius:6px;
- padding: 30px;
- width: 60%;
-}
-
-.border:active {
- border-color: #EFC81A;
-}
-
-.border:hover {
- border: 2px solid #1F4AAE;
-}
-
-.checkbox {
- display: flex;
- width: 70%;
- color: #696F79;
- font-weight: 500;
-}
-
-.checkbox input {
-  margin-right: 15px;
-}
-
-.forgot {
- margin-left: 325px;
- font-size: 12px;
- font-weight: 500;
- line-height: 16px;
- letter-spacing: 0em;
- text-align: left;
- color: #999999;
-}
-
-.signup {
- font-size: 13px;
- font-weight: 500;
- line-height: 17px;
- letter-spacing: 0em;
- text-align: left;
- color: #999999;
-}
-
-.signreg {
-  color: #EFC81A;
-  text-decoration: none;
-}
-.login {
- border: 1px solid black;
- border-radius:6px;
- padding: 30px;
- width: 60%;
- text-align: center;
- background-color:#EFC81A;
-}
-
-.login:hover {
- border: 2px solid #1F4AAE;
-}
-
-/* INI UNTUK REGISTER */
- 
- .registerlex {
-  display: flex;
- }
- 
- .left-container2 {
-  height: 100vh;
-  width: 50%;
- }
- 
- .right-container2 {
-  height: 100vh;
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
- }
- 
- .Yellowlayer2 {
-  background-color :#EFC81A;
-  height: 100%;
-  width: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 70%;
- }
- 
- .Head2 {
-  color: #EFC81A;
-  margin-bottom: -13px;
- }
- 
- .title2 {
-  color: grey;
-  opacity: 60%;  
-  font-family: Inter;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0em;
-  text-align: left;
- }
- 
- .line2 {
   background-color: grey;
   height: 1px;
   width: 70%;
   opacity: 15%;
- }
- 
- .name {
+}
+
+.mail {
   width: 70%;
-  color: #696F79;
+  color: #696f79;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: 5px;
- }
+}
 
- .email {
+.password {
   width: 70%;
-  color: #696F79;
+  color: #696f79;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
   margin-top: 20px;
-  margin-bottom: 10px;
- }
- 
- .phone {
-  width: 70%;
-  color: #696F79;
-  font-weight: 500;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-bottom: 10px;
- }
+}
 
- .createpass {
-  width: 70%;
-  color: #696F79;
-  font-weight: 500;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-bottom: 10px;
- }
-
- .createnew {
-  width: 70%;
-  color: #696F79;
-  font-weight: 500;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-bottom: 10px;
- }
-
- .border2 {
+.border {
   border: 1px solid black;
-  border-radius:6px;
-  padding: 30px;
-  width: 60%;
- }
- 
- .border2:active {
-  border-color: #EFC81A;
- }
- 
- .border2:hover {
-  border: 2px solid #1F4AAE;
- }
- 
- /* .checkbox {
+  border-radius: 6px;
+  padding: 0px 30px;
+  width: 426px;
+  height: 64px;
+}
+
+.border:active {
+  border-color: #efc81a;
+}
+
+.border:hover {
+  border: 2px solid #1f4aae;
+}
+
+.checkbox {
   display: flex;
-  width: 70%;
-  color: #696F79;
+  width: 78%;
+  color: #696f79;
   font-weight: 500;
- } */
- 
- /* .checkbox input {
-   margin-right: 15px;
- } */
- 
- .forgot {
+  margin-top: 10px;
+  align-items: center;
+}
+
+.checkbox input {
+  margin-right: 10px;
+  margin-top: 10px;
+  /* margin-bottom: 10px; */
+}
+
+.forgot {
   margin-left: 325px;
   font-size: 12px;
   font-weight: 500;
@@ -304,26 +149,180 @@ code {
   letter-spacing: 0em;
   text-align: left;
   color: #999999;
- }
- 
- .signup {
+}
+
+.signup {
   font-size: 13px;
   font-weight: 500;
   line-height: 17px;
   letter-spacing: 0em;
   text-align: left;
   color: #999999;
- }
- 
- .login {
+}
+
+.signreg {
+  color: #efc81a;
+  text-decoration: none;
+}
+.login {
   border: 1px solid black;
-  border-radius:6px;
+  border-radius: 6px;
+  padding: 0px 30px;
+  width: 426px;
+  height: 64px;
+  background-color: #efc81a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.login:hover {
+  border: 2px solid #1f4aae;
+}
+
+/* INI UNTUK REGISTER */
+
+.registerlex {
+  display: flex;
+}
+
+.left-container2 {
+  height: 100vh;
+  width: 50%;
+}
+
+.right-container2 {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Yellowlayer2 {
+  background-color: #efc81a;
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 70%;
+}
+
+.Head2 {
+  color: #efc81a;
+  margin-bottom: -13px;
+}
+
+.title2 {
+  color: grey;
+  opacity: 60%;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.line2 {
+  background-color: grey;
+  height: 1px;
+  width: 70%;
+  opacity: 15%;
+}
+
+.name {
+  width: 70%;
+  color: #696f79;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.email {
+  width: 70%;
+  color: #696f79;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.phone {
+  width: 70%;
+  color: #696f79;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.createpass {
+  width: 70%;
+  color: #696f79;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.createnew {
+  width: 70%;
+  color: #696f79;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.border2 {
+  border: 1px solid black;
+  border-radius: 6px;
   padding: 30px;
   width: 60%;
-  text-align: center;
-  background-color:#EFC81A;
- }
- 
- .login:hover {
-  border: 2px solid #1F4AAE;
- }
+}
+
+.border2:active {
+  border-color: #efc81a;
+}
+
+.border2:hover {
+  border: 2px solid #1f4aae;
+}
+
+/* .checkbox {
+  display: flex;
+  width: 70%;
+  color: #696F79;
+  font-weight: 500;
+ } */
+
+/* .checkbox input {
+   margin-right: 15px;
+ } */
+
+.forgot {
+  margin-left: 325px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #999999;
+}
+
+.signup {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #999999;
+}
+
+.login:hover {
+  border: 2px solid #1f4aae;
+}
