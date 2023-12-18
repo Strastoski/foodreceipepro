@@ -1,15 +1,15 @@
 import React from "react";
 import { ReactComponent as MySVGIcon } from "./logo.svg";
+import myImage from "../Image/background.png";
 
 const Register = () => {
   return (
     <div className="loginflex">
       <div className="left-container">
         <img
-          alt=""
-          height="100%"
-          width="100%"
-          src={`../../assets/image15.png`}
+          src={myImage}
+          alt="My Image"
+          style={{ height: "100%", width: "100%" }}
         />
 
         <div className="Yellowlayer"></div>

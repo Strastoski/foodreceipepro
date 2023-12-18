@@ -326,3 +326,31 @@ code {
 .login:hover {
   border: 2px solid #1f4aae;
 }
+
+.resetpassword {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 0px 30px;
+  width: 426px;
+  height: 64px;
+  background-color: #efc81a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.resetpass {
+  width: 77%;
+  color: #696f79;
+  font-weight: 500;
+  margin-bottom: 16px;
+  margin-top: 20px;
+}
+
+.line3 {
+  background-color: black;
+  height: 1px;
+  width: 77%;
+  opacity: 3%;
+}

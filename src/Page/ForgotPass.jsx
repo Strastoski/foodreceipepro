@@ -1,21 +1,15 @@
-import React from 'react'
-import { ReactComponent as MySVGIcon } from './logo.svg';
-
-
+import React from "react";
+import { ReactComponent as MySVGIcon } from "./logo.svg";
+import myImage from "../Image/background.png";
 
 const ForgotPass = () => {
-    
   return (
-
     <div className="loginflex">
-
-
       <div className="left-container">
         <img
-        alt=''
-        height='100%'
-        width='100%'
-        src={`../../assets/image15.png`}
+          src={myImage}
+          alt="My Image"
+          style={{ height: "100%", width: "100%" }}
         />
 
         <div className="Yellowlayer"></div>
@@ -24,22 +18,24 @@ const ForgotPass = () => {
           <MySVGIcon></MySVGIcon>
         </div>
       </div>
-      {/* kiri */}  
-
-
+      {/* kiri */}
 
       <div className="right-container">
-        <h1 className='Head'>Forgot Password?</h1>
-        <h6 className='title'></h6>
+        <h1 className="Head">Forgot Password?</h1>
+        <h6 className="title"></h6>
 
         <div className="line"></div>
 
-        <div className="email">E-mail</div> 
-          <input type="text" placeholder='exmaplexxx@gmail.com' className='border' />
+        <div className="email">E-mail</div>
+        <input
+          type="text"
+          placeholder="exmaplexxx@gmail.com"
+          className="border"
+        />
 
         <div className="password">Password</div>
-          <input type="Password" placeholder='Password' className='border' />
-          
+        <input type="Password" placeholder="Password" className="border" />
+
         <div className="checkbox">
           <input type="checkbox" name="terms" id="" />
           <p> I agree to terms & conditions </p>
@@ -50,24 +46,20 @@ const ForgotPass = () => {
         <div className="forgot">Forgot Password?</div>
 
         <div className="parentline">
-          
           <div className="line1"></div>
-        
 
           <div className="line1"></div>
-         
-        </div> 
-        
+        </div>
 
-        <div className="signup">Don't have an account? <a href='/' className='signreg'>Sign Up</a></div>
-
-
+        <div className="signup">
+          Don't have an account?{" "}
+          <a href="/" className="signreg">
+            Sign Up
+          </a>
+        </div>
       </div>
+    </div>
+  );
+};
 
-
-    </div> 
-
-  )
-}
-
-export default ForgotPass
+export default ForgotPass;
