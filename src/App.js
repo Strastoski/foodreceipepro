@@ -4,6 +4,7 @@ import Register from "./Page/Register";
 import ForgotPass from "./Page/ForgotPass";
 import Home from "./Page/Home";
 import CodeReset from "./Page/CodeResetPassword";
+import ResetPassword from "./Page/ResetPassword";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <Route path="/home" element={<Home />} />
 
       <Route path="/codereset" element={<CodeReset />} />
+
+      <Route path="/resetpassword" element={<ResetPassword />} />
     </Routes>
   );
 }

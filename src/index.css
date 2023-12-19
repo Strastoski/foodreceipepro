@@ -354,3 +354,29 @@ code {
   width: 77%;
   opacity: 3%;
 }
+
+.cnp {
+  width: 77%;
+  color: #696f79;
+  font-weight: 500;
+  margin-bottom: 16px;
+  margin-top: 20px;
+}
+
+.resetp {
+  border: 1px solid #efc81a;
+  border-radius: 6px;
+  padding: 0px 30px;
+  width: 426px;
+  height: 64px;
+  background-color: #efc81a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.resetp:hover {
+  border: 2px solid #1f4aae;
+}
