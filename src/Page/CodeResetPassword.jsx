@@ -23,8 +23,8 @@ const CodeReset = () => {
       <div className="right-container">
         <div className="line3"></div>
 
-        <div className="cnp">Code 6 Digit</div>
-        <input type="cnp" className="border" />
+        <div className="resetpass">Code 6 Digit</div>
+        <input type="Resetpass" className="border" />
 
         <div className="resetpassword">Reset Password</div>
 

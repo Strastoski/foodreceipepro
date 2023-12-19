@@ -15,7 +15,7 @@ function App() {
 
       <Route path="/forgotpass" element={<ForgotPass />} />
 
-      <Route path="/home" element={<Home />} />
+      <Route path="/" element={<Home />} />
 
       <Route path="/codereset" element={<CodeReset />} />
 

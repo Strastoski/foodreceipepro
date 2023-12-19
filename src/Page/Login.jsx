@@ -43,7 +43,11 @@ const Login = () => {
 
         <div className="login">Log in</div>
 
-        <div className="forgot">Forgot Password?</div>
+        <div>
+          <a className="forgot" href="/forgotpass">
+            Forgot Password?
+          </a>
+        </div>
 
         <div className="parentline">
           <div className="line1"></div>
@@ -53,7 +57,7 @@ const Login = () => {
 
         <div className="signup">
           Don't have an account?{" "}
-          <a href="/" className="signreg">
+          <a href="/register" className="signreg">
             Sign Up
           </a>
         </div>

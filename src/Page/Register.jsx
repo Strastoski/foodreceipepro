@@ -55,11 +55,15 @@ const Register = () => {
 
         <div className="login">Register Account</div>
 
-        <div className="forgot">Forgot Password?</div>
+        <div>
+          <a className="forgot" href="/forgotpass">
+            Forgot Password?
+          </a>
+        </div>
 
         <div className="signup">
           Already have account?{" "}
-          <a href="/" className="signreg">
+          <a href="/login" className="signreg">
             Log in Here
           </a>
         </div>

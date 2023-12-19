@@ -22,7 +22,11 @@ const ForgotPass = () => {
 
       <div className="right-container">
         <h1 className="Head">Forgot Password?</h1>
-        <h6 className="title"></h6>
+        <h6 className="title" />
+        <div className="forp">
+          We just need your registered e-mail address to send your password
+          resend
+        </div>
 
         <div className="line"></div>
 
@@ -33,29 +37,12 @@ const ForgotPass = () => {
           className="border"
         />
 
-        <div className="password">Password</div>
-        <input type="Password" placeholder="Password" className="border" />
-
-        <div className="checkbox">
-          <input type="checkbox" name="terms" id="" />
-          <p> I agree to terms & conditions </p>
-        </div>
-
-        <div className="login">Log in</div>
-
-        <div className="forgot">Forgot Password?</div>
+        <div className="login">Send E-mail</div>
 
         <div className="parentline">
           <div className="line1"></div>
 
           <div className="line1"></div>
-        </div>
-
-        <div className="signup">
-          Don't have an account?{" "}
-          <a href="/" className="signreg">
-            Sign Up
-          </a>
         </div>
       </div>
     </div>
