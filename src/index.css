@@ -40,6 +40,11 @@ code {
   background-color: white;
 }
 
+.left-hero-landing {
+  grid-area: left;
+  background-color: #fff5ec;
+}
+
 .left-hero-content {
   display: flex;
   flex-direction: column;

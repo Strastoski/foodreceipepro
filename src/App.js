@@ -5,6 +5,8 @@ import ForgotPass from "./Page/ForgotPass";
 import Home from "./Page/Home";
 import CodeReset from "./Page/CodeResetPassword";
 import ResetPassword from "./Page/ResetPassword";
+import DetailChat from "./Page/DetailChat";
+import Landing from "./Page/Landing";
 
 function App() {
   return (
@@ -20,6 +22,10 @@ function App() {
       <Route path="/codereset" element={<CodeReset />} />
 
       <Route path="/resetpassword" element={<ResetPassword />} />
+
+      <Route path="/DetailChat" element={<DetailChat />} />
+
+      <Route path="/landing" element={<Landing />} />
     </Routes>
   );
 }
