@@ -25,23 +25,23 @@ const Register = () => {
         <h6 className="title">Create new account to access all features</h6>
         <div className="line"></div>
 
-        <div className="name">Name</div>
+        <div className="email">Name</div>
         <input type="text" placeholder="Name" className="border" />
 
         <div className="email">Email address*</div>
         <input type="Password" placeholder="Password" className="border" />
 
-        <div className="phone">Phone Number</div>
+        <div className="email">Phone Number</div>
         <input type="Password" placeholder="08xxxxxxxxxx" className="border" />
 
-        <div className="createpass">Create New Password</div>
+        <div className="email">Create New Password</div>
         <input
           type="Password"
           placeholder="Create New Password"
           className="border"
         />
 
-        <div className="createnew">New Password</div>
+        <div className="email">New Password</div>
         <input
           type="Password"
           placeholder="Create New Password"

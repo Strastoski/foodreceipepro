@@ -33,7 +33,7 @@ const Login = () => {
           className="border"
         />
 
-        <div className="password">Password</div>
+        <div className="email">Password</div>
         <input type="Password" placeholder="Password" className="border" />
 
         <div className="checkbox">

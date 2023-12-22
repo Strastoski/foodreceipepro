@@ -26,13 +26,13 @@ code {
 
 .hero {
   margin: 0;
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
   background-color: #efc81a;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
-  grid-template-areas: "left left left left left left left left left right";
+  grid-template-areas: "left left left left left left left left left right right right";
 }
 
 .left-hero {
@@ -43,6 +43,10 @@ code {
 .left-hero-landing {
   grid-area: left;
   background-color: #fff5ec;
+}
+
+.right-hero-landing {
+  grid-area: right;
 }
 
 .left-hero-content {
@@ -62,6 +66,11 @@ code {
   margin-top: -1rem;
 }
 
+.input-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
 .hero-input {
   width: 22rem;
   height: 3rem;
@@ -69,7 +78,7 @@ code {
   border-radius: 5px;
   background-color: #efefef;
   color: black;
-  padding: 0 2rem;
+  padding: 0 3rem;
 }
 
 .hero-input::placeholder {
@@ -78,6 +87,11 @@ code {
 
 .hero-input:focus {
   border: 1px solid yellow;
+}
+
+.pop {
+  height: 100vh;
+  width: 100%;
 }
 
 .loginflex {
