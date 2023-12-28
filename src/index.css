@@ -14,21 +14,29 @@ code {
     monospace;
 }
 
+.nav-container {
+  margin-left: 4rem;
+}
+
 .nav-bar {
-  width: 100%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
-  padding-left: 40px;
+  z-index: 100;
   position: absolute;
   top: 0;
   left: 0;
+  padding-left: 4rem;
+}
+
+.page {
+  /* position: relative; */
 }
 
 .hero {
   margin: 0;
-  /* height: 100vh; */
+  height: 100vh;
   position: relative;
-  background-color: #efc81a;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto;
@@ -40,6 +48,12 @@ code {
   background-color: white;
 }
 
+.right-hero {
+  grid-area: right;
+  background-color: #efc81a;
+  z-index: 0;
+}
+
 .left-hero-landing {
   grid-area: left;
   background-color: #fff5ec;
@@ -47,6 +61,7 @@ code {
 
 .right-hero-landing {
   grid-area: right;
+  background-color: #efc81a;
 }
 
 .left-hero-content {
@@ -92,6 +107,9 @@ code {
 .pop {
   height: 100vh;
   width: 100%;
+  position: relative;
+  background-color: #fff5ec;
+  margin-top: -22px;
 }
 
 .loginflex {
@@ -481,4 +499,74 @@ code {
   margin-bottom: 32px;
   margin-top: -55px;
   text-align: center;
+}
+
+.header-popular-container {
+  display: flex;
+  align-items: center;
+  margin-left: 5rem;
+}
+
+.title-pop {
+  margin-left: 10px;
+  color: #3f3a3a;
+  font-weight: 500;
+  size: 48px;
+}
+
+.ract {
+  width: 1rem;
+  height: 4rem;
+  background-color: #efc81a;
+}
+
+.new-recipe-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 11rem;
+  margin-top: 30px;
+}
+
+.left-recepe-yellow {
+  background-color: #efc81a;
+  height: 24rem;
+  width: 16rem;
+}
+
+.ramen-text {
+  margin-top: -1.4rem;
+}
+
+.line-ramen {
+  background-color: grey;
+  height: 1px;
+  width: 65px;
+  margin-top: -10px;
+}
+
+.ramen-text-p {
+  margin-top: -1rem;
+}
+
+.p-color {
+  color: #3f3a3a;
+}
+
+.new-recipe-button {
+  background-color: #efc81a;
+  padding: 0.5rem 1rem;
+  border: 2px solid #efc81a;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.new-recipe-button:hover {
+  background-color: white;
+  color: #efc81a;
+}
+
+.right-recipe {
+  margin-right: 50px;
 }

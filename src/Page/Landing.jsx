@@ -6,40 +6,43 @@ import Nav from "../components/Nav";
 import bgSearch from "../Image/search.png";
 import bgPizza from "../Image/pizza.png";
 import bgBurger from "../Image/burger.png";
+import bgBurger2 from "../Image/burger2.png";
 
 const Landing = () => {
   return (
-    <div className="hero">
+    <div className="page">
       {/* Nav */}
       <Nav></Nav>
       {/* End Nav */}
 
-      <div className="left-hero-landing">
-        <div className="left-hero-content">
-          <h1 className="hero-title">Discover Recipe</h1>
-          <h1 className="hero-title hero-title-bottom">& Delicious Food</h1>
-          <div className="input-wrapper">
-            <div
-              className="search"
-              style={{
-                backgroundImage: `url(${bgSearch})`,
-                width: 20,
-                height: 20,
-                position: "absolute",
-                top: 13,
-                left: 19,
-                zIndex: 20,
-              }}
-            />
-            <input
-              type="text"
-              placeholder="Search Recipe"
-              className="hero-input"
-            />
+      <div className="hero">
+        <div className="left-hero-landing">
+          <div className="left-hero-content">
+            <h1 className="hero-title">Discover Recipe</h1>
+            <h1 className="hero-title hero-title-bottom">& Delicious Food</h1>
+            <div className="input-wrapper">
+              <div
+                className="search"
+                style={{
+                  backgroundImage: `url(${bgSearch})`,
+                  width: 20,
+                  height: 20,
+                  position: "absolute",
+                  top: 13,
+                  left: 19,
+                  zIndex: 20,
+                }}
+              />
+              <input
+                type="text"
+                placeholder="Search Recipe"
+                className="hero-input"
+              />
+            </div>
           </div>
         </div>
+        <div className="right-hero-landing"></div>
       </div>
-      <div className="right-hero-landing"></div>
 
       <div className="yellow-hero"></div>
 
@@ -106,15 +109,32 @@ const Landing = () => {
 
       {/* second page */}
       <div className="pop">
-        <h1>Popular For You!</h1>
+        <div className="header-popular-container">
+          <div className="ract"></div>
+          <h1 className="title-pop">Popular For You!</h1>
+        </div>
         <div
           style={{
+            borderRadius: 20,
             position: "absolute",
-            top: 228,
-            right: 270,
+            top: 140,
             display: "flex",
             justifyContent: "space-evenly",
             backgroundImage: `url(${bgPizza})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            width: 356,
+            height: 350,
+            zIndex: 5,
+          }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            top: 104,
+            display: "flex",
+            justifyContent: "space-evenly",
+            backgroundImage: `url(${bgDot})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             width: 200,
@@ -122,6 +142,72 @@ const Landing = () => {
             zIndex: 1,
           }}
         />
+        <div
+          style={{
+            borderRadius: 20,
+            position: "absolute",
+            top: 140,
+            left: 380,
+            display: "flex",
+            justifyContent: "space-evenly",
+            backgroundImage: `url(${bgBurger})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            width: 356,
+            height: 350,
+            zIndex: 5,
+          }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            top: 305,
+            left: 550,
+            display: "flex",
+            justifyContent: "space-evenly",
+            backgroundImage: `url(${bgDot})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            width: 200,
+            height: 200,
+            zIndex: 1,
+          }}
+        />
+      </div>
+      {/* NEXT PAGE */}
+      <div className="pop">
+        <div className="header-popular-container">
+          <div className="ract"></div>
+          <h1 className="title-pop">New Recipe</h1>
+          <div
+            style={{
+              position: "absolute",
+              top: 150,
+              left: 50,
+              display: "flex",
+              justifyContent: "space-evenly",
+              backgroundImage: `url(${bgBurger2})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              width: 380,
+              height: 380,
+              zIndex: 1,
+            }}
+          />
+        </div>
+        <div className="new-recipe-container">
+          <div className="left-recepe-yellow"></div>
+          <div className="right-recipe">
+            <h1>Healty Bone Broth</h1>
+            <h1 className="ramen-text">Ramen (Quick & Easy)</h1>
+            <div className="line-ramen"></div>
+            <p className="p-color">Quick + Easy Chicken Bone Broth Ramen - </p>
+            <p className="p-color ramen-text-p">
+              Healty chicken ramen in hurry? That's right!
+            </p>
+            <button className="new-recipe-button">Learn More</button>
+          </div>
+        </div>
       </div>
     </div>
   );
