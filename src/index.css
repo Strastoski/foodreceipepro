@@ -30,7 +30,7 @@ code {
 }
 
 .page {
-  /* position: relative; */
+  position: relative;
 }
 
 .hero {
@@ -105,11 +105,30 @@ code {
 }
 
 .pop {
-  height: 100vh;
   width: 100%;
   position: relative;
   background-color: #fff5ec;
-  margin-top: -22px;
+}
+
+.popular-img-container {
+  padding: 4rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "left middle right";
+}
+
+.pop-img-container {
+  position: relative;
+  z-index: 100;
+}
+
+.pizza-text {
+  position: absolute;
+  top: 15rem;
+  left: 2rem;
+  z-index: 110;
+  color: white;
 }
 
 .loginflex {
@@ -505,6 +524,7 @@ code {
   display: flex;
   align-items: center;
   margin-left: 5rem;
+  /* margin-top: -100px; */
 }
 
 .title-pop {
@@ -583,5 +603,20 @@ code {
   width: 1rem;
   height: 4rem;
   background-color: #efc81a;
-  margin-top: 70px;
+  margin-top: 160px;
+  margin-left: 80px;
+}
+
+.title-pop2 {
+  margin-left: 110px;
+  color: #3f3a3a;
+  font-weight: 500;
+  size: 48px;
+  margin-top: -55px;
+}
+
+.popre {
+  margin: 2rem 5rem;
+  display: flex;
+  gap: 2rem;
 }

@@ -116,66 +116,69 @@ const Landing = () => {
           <div className="ract"></div>
           <h1 className="title-pop">Popular For You!</h1>
         </div>
-        <div
-          style={{
-            borderRadius: 20,
-            position: "absolute",
-            top: 140,
-            display: "flex",
-            justifyContent: "space-evenly",
-            backgroundImage: `url(${bgPizza})`,
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-            width: 356,
-            height: 350,
-            zIndex: 5,
-          }}
-        />
-        <div
-          style={{
-            position: "absolute",
-            top: 104,
-            display: "flex",
-            justifyContent: "space-evenly",
-            backgroundImage: `url(${bgDot})`,
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-            width: 200,
-            height: 200,
-            zIndex: 1,
-          }}
-        />
-        <div
-          style={{
-            borderRadius: 20,
-            position: "absolute",
-            top: 140,
-            left: 380,
-            display: "flex",
-            justifyContent: "space-evenly",
-            backgroundImage: `url(${bgBurger})`,
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-            width: 356,
-            height: 350,
-            zIndex: 5,
-          }}
-        />
-        <div
-          style={{
-            position: "absolute",
-            top: 305,
-            left: 550,
-            display: "flex",
-            justifyContent: "space-evenly",
-            backgroundImage: `url(${bgDot})`,
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-            width: 200,
-            height: 200,
-            zIndex: 1,
-          }}
-        />
+        <div className="popular-img-container">
+          <div className="pop-img-container">
+            <div
+              style={{
+                borderRadius: 10,
+                gridArea: "left",
+                backgroundImage: `url(${bgPizza})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: 356,
+                height: 350,
+                zIndex: 5,
+              }}
+            />
+            <h1 className="pizza-text">Pizza Lamoa</h1>
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              top: 110,
+              left: 10,
+              display: "flex",
+              justifyContent: "space-evenly",
+              backgroundImage: `url(${bgDot})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              width: 200,
+              height: 200,
+              zIndex: 1,
+            }}
+          />
+
+          <div className="pop-img-container">
+            <div
+              style={{
+                borderRadius: 10,
+                gridArea: "middle",
+                backgroundImage: `url(${bgBurger})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: 356,
+                height: 350,
+                zIndex: 5,
+              }}
+            />
+            <h1 className="pizza-text">King Burger</h1>
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              top: 320,
+              left: 600,
+              display: "flex",
+              justifyContent: "space-evenly",
+              backgroundImage: `url(${bgDot})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              width: 200,
+              height: 200,
+              zIndex: 1,
+            }}
+          />
+        </div>
       </div>
       {/* NEXT PAGE */}
       <div className="pop">
@@ -211,67 +214,76 @@ const Landing = () => {
             <button className="new-recipe-button">Learn More</button>
           </div>
         </div>
+        {/* 
+            3rd PAGE */}
         <div className="pop">
-          <div className="header-popular-container">
-            <div className="ract"></div>
+          <div className="ract2"></div>
+          <h1 className="title-pop2">Popular Recepi</h1>
+          <div className="popre">
             <div
               style={{
-                position: "absolute",
-                top: 250,
-                left: 50,
-                display: "flex",
-                justifyContent: "space-evenly",
-                backgroundImage: `url(${bgSoup})`,
+                backgroundImage: `url(${bgBurger2})`,
                 backgroundPosition: "center",
                 backgroundSize: "cover",
-                width: 330,
-                height: 330,
-                marginLeft: 30,
-                zIndex: 1,
+                width: 380,
+                height: 380,
+                borderRadius: 10,
+              }}
+            />
+            <div
+              style={{
+                backgroundImage: `url(${bgBurger2})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: 380,
+                height: 380,
+                borderRadius: 10,
+              }}
+            />
+            <div
+              style={{
+                backgroundImage: `url(${bgBurger2})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: 380,
+                height: 380,
+                borderRadius: 10,
               }}
             />
           </div>
-          <div className="new-recipe-container">
-            <div className="left-recepe-yellow"></div>
+          <div className="popre">
+            <div
+              style={{
+                backgroundImage: `url(${bgBurger2})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: 380,
+                height: 380,
+                borderRadius: 10,
+              }}
+            />
+            <div
+              style={{
+                backgroundImage: `url(${bgBurger2})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: 380,
+                height: 380,
+                borderRadius: 10,
+              }}
+            />
+            <div
+              style={{
+                backgroundImage: `url(${bgBurger2})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: 380,
+                height: 380,
+                borderRadius: 10,
+              }}
+            />
           </div>
         </div>
-      </div>
-
-      <div className="pop">
-        <div className="header-popular-container">
-          <div className="ract2"></div>
-          <h1 className="title-pore">Popular Recipe</h1>
-          <div
-            style={{
-              position: "absolute",
-              top: 198,
-              display: "flex",
-              justifyContent: "space-evenly",
-              backgroundImage: `url(${bgDimsum})`,
-              backgroundPosition: "center",
-              backgroundSize: "cover",
-              width: 330,
-              height: 330,
-              marginLeft: 390,
-            }}
-          />
-          <div
-            style={{
-              position: "absolute",
-              top: 198,
-              display: "flex",
-              justifyContent: "space-evenly",
-              backgroundImage: `url(${bgBanana})`,
-              backgroundPosition: "center",
-              backgroundSize: "cover",
-              width: 330,
-              height: 330,
-              marginLeft: 780,
-              zIndex: 5,
-            }}
-          />
-        </div>
-        <div className="new-recipe-container"></div>
       </div>
     </div>
   );
