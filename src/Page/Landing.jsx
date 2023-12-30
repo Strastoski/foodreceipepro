@@ -7,6 +7,9 @@ import bgSearch from "../Image/search.png";
 import bgPizza from "../Image/pizza.png";
 import bgBurger from "../Image/burger.png";
 import bgBurger2 from "../Image/burger2.png";
+import bgSoup from "../Image/soup.png";
+import bgDimsum from "../Image/dimsum.png";
+import bgBanana from "../Image/Banana.png";
 
 const Landing = () => {
   return (
@@ -208,6 +211,67 @@ const Landing = () => {
             <button className="new-recipe-button">Learn More</button>
           </div>
         </div>
+        <div className="pop">
+          <div className="header-popular-container">
+            <div className="ract"></div>
+            <div
+              style={{
+                position: "absolute",
+                top: 250,
+                left: 50,
+                display: "flex",
+                justifyContent: "space-evenly",
+                backgroundImage: `url(${bgSoup})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: 330,
+                height: 330,
+                marginLeft: 30,
+                zIndex: 1,
+              }}
+            />
+          </div>
+          <div className="new-recipe-container">
+            <div className="left-recepe-yellow"></div>
+          </div>
+        </div>
+      </div>
+
+      <div className="pop">
+        <div className="header-popular-container">
+          <div className="ract2"></div>
+          <h1 className="title-pore">Popular Recipe</h1>
+          <div
+            style={{
+              position: "absolute",
+              top: 198,
+              display: "flex",
+              justifyContent: "space-evenly",
+              backgroundImage: `url(${bgDimsum})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              width: 330,
+              height: 330,
+              marginLeft: 390,
+            }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: 198,
+              display: "flex",
+              justifyContent: "space-evenly",
+              backgroundImage: `url(${bgBanana})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              width: 330,
+              height: 330,
+              marginLeft: 780,
+              zIndex: 5,
+            }}
+          />
+        </div>
+        <div className="new-recipe-container"></div>
       </div>
     </div>
   );

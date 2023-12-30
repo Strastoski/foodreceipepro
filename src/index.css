@@ -570,3 +570,18 @@ code {
 .right-recipe {
   margin-right: 50px;
 }
+
+.title-pore {
+  margin-left: 10px;
+  color: #3f3a3a;
+  font-weight: 500;
+  size: 48px;
+  margin-top: 70px;
+}
+
+.ract2 {
+  width: 1rem;
+  height: 4rem;
+  background-color: #efc81a;
+  margin-top: 70px;
+}
