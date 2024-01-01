@@ -239,7 +239,6 @@ const Landing = () => {
                 borderRadius: 10,
               }}
             />
-            {/* <h1 className="soup-text">Chicken Kare</h1> */}
             <div
               style={{
                 backgroundImage: `url(${bgDimsum})`,
@@ -250,6 +249,10 @@ const Landing = () => {
                 borderRadius: 10,
               }}
             />
+            <h1 className="soup-text">
+              <span>Chicken</span>
+              <span>Kare</span>
+            </h1>
             <div
               style={{
                 backgroundImage: `url(${bgBanana})`,
@@ -261,8 +264,8 @@ const Landing = () => {
               }}
             />
             <h1 className="soup-text">
-              <span>Bomb</span>
-              <span>Chicken</span>
+              {/* <span>Bomb</span>
+              <span>Chicken</span> */}
             </h1>
           </div>
           <div className="popre">
