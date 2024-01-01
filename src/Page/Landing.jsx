@@ -10,6 +10,9 @@ import bgBurger2 from "../Image/burger2.png";
 import bgSoup from "../Image/soup.png";
 import bgDimsum from "../Image/dimsum.png";
 import bgBanana from "../Image/Banana.png";
+import bgCake from "../Image/cake.png";
+import bgSalmon from "../Image/salmon.png";
+import bgIndian from "../Image/indian.png";
 
 const Landing = () => {
   return (
@@ -130,7 +133,10 @@ const Landing = () => {
                 zIndex: 5,
               }}
             />
-            <h1 className="pizza-text">Pizza Lamoa</h1>
+            <h1 className="pizza-text">
+              <span>Pizza</span>
+              <span>Lamoa</span>
+            </h1>
           </div>
           <div
             style={{
@@ -161,13 +167,16 @@ const Landing = () => {
                 zIndex: 5,
               }}
             />
-            <h1 className="pizza-text">King Burger</h1>
+            <h1 className="pizza-text">
+              <span>King</span>
+              <span>Burger</span>
+            </h1>
           </div>
           <div
             style={{
               position: "absolute",
               top: 320,
-              left: 600,
+              left: 598,
               display: "flex",
               justifyContent: "space-evenly",
               backgroundImage: `url(${bgDot})`,
@@ -218,11 +227,22 @@ const Landing = () => {
             3rd PAGE */}
         <div className="pop">
           <div className="ract2"></div>
-          <h1 className="title-pop2">Popular Recepi</h1>
+          <h1 className="title-pop2">Popular Recipe</h1>
           <div className="popre">
             <div
               style={{
-                backgroundImage: `url(${bgBurger2})`,
+                backgroundImage: `url(${bgSoup})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: 380,
+                height: 380,
+                borderRadius: 10,
+              }}
+            />
+            {/* <h1 className="soup-text">Chicken Kare</h1> */}
+            <div
+              style={{
+                backgroundImage: `url(${bgDimsum})`,
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 width: 380,
@@ -232,7 +252,7 @@ const Landing = () => {
             />
             <div
               style={{
-                backgroundImage: `url(${bgBurger2})`,
+                backgroundImage: `url(${bgBanana})`,
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 width: 380,
@@ -240,21 +260,15 @@ const Landing = () => {
                 borderRadius: 10,
               }}
             />
-            <div
-              style={{
-                backgroundImage: `url(${bgBurger2})`,
-                backgroundPosition: "center",
-                backgroundSize: "cover",
-                width: 380,
-                height: 380,
-                borderRadius: 10,
-              }}
-            />
+            <h1 className="soup-text">
+              <span>Bomb</span>
+              <span>Chicken</span>
+            </h1>
           </div>
           <div className="popre">
             <div
               style={{
-                backgroundImage: `url(${bgBurger2})`,
+                backgroundImage: `url(${bgCake})`,
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 width: 380,
@@ -264,7 +278,7 @@ const Landing = () => {
             />
             <div
               style={{
-                backgroundImage: `url(${bgBurger2})`,
+                backgroundImage: `url(${bgSalmon})`,
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 width: 380,
@@ -274,7 +288,7 @@ const Landing = () => {
             />
             <div
               style={{
-                backgroundImage: `url(${bgBurger2})`,
+                backgroundImage: `url(${bgIndian})`,
                 backgroundPosition: "center",
                 backgroundSize: "cover",
                 width: 380,
