@@ -239,6 +239,12 @@ const Landing = () => {
                 borderRadius: 10,
               }}
             />
+
+            <h1 className="soup-text">
+              <span>Chicken</span>
+              <span>Kare</span>
+            </h1>
+
             <div
               style={{
                 backgroundImage: `url(${bgDimsum})`,
@@ -248,11 +254,13 @@ const Landing = () => {
                 height: 380,
                 borderRadius: 10,
               }}
-            />
-            <h1 className="soup-text">
-              <span>Chicken</span>
-              <span>Kare</span>
-            </h1>
+            >
+              <h1 className="bomb-text">
+                <span>Bomb</span>
+                <span>Chicken</span>
+              </h1>
+            </div>
+
             <div
               style={{
                 backgroundImage: `url(${bgBanana})`,
@@ -262,12 +270,14 @@ const Landing = () => {
                 height: 380,
                 borderRadius: 10,
               }}
-            />
-            <h1 className="soup-text">
-              {/* <span>Bomb</span>
-              <span>Chicken</span> */}
-            </h1>
+            >
+              <h1 className="banana-text">
+                <span>Banana</span>
+                <span>Smoothie Pop</span>
+              </h1>
+            </div>
           </div>
+
           <div className="popre">
             <div
               style={{
@@ -278,7 +288,12 @@ const Landing = () => {
                 height: 380,
                 borderRadius: 10,
               }}
-            />
+            >
+              <h1 className="cake-text">
+                <span>Coffe Lava</span>
+                <span>Cake</span>
+              </h1>
+            </div>
             <div
               style={{
                 backgroundImage: `url(${bgSalmon})`,
@@ -288,7 +303,12 @@ const Landing = () => {
                 height: 380,
                 borderRadius: 10,
               }}
-            />
+            >
+              <h1 className="salmon-text">
+                <span>Sugar</span>
+                <span>Salmon</span>
+              </h1>
+            </div>
             <div
               style={{
                 backgroundImage: `url(${bgIndian})`,
@@ -298,7 +318,12 @@ const Landing = () => {
                 height: 380,
                 borderRadius: 10,
               }}
-            />
+            >
+              <h1 className="indian-text">
+                <span>Indian</span>
+                <span>Salad</span>
+              </h1>
+            </div>
           </div>
         </div>
       </div>
