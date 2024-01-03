@@ -419,17 +419,6 @@ code {
   border: 2px solid #1f4aae;
 }
 
-/* .checkbox {
-  display: flex;
-  width: 70%;
-  color: #696F79;
-  font-weight: 500;
- } */
-
-/* .checkbox input {
-   margin-right: 15px;
- } */
-
 .forgot {
   margin-left: 325px;
   font-size: 12px;
@@ -690,4 +679,25 @@ code {
   flex-direction: column;
   top: 48rem;
   left: 53.5rem;
+}
+
+.footer {
+  background-color: #efc81a;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  height: 8rem;
+}
+
+.footer-text {
+  color: #2e266f;
+  font-size: 36px;
+}
+
+.footer2-text {
+  color: #707070;
+}
+
+.right-recipe2 {
+  margin-right: -22rem;
 }

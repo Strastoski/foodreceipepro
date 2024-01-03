@@ -327,6 +327,14 @@ const Landing = () => {
           </div>
         </div>
       </div>
+      <footer className="footer">
+        <p1 className="footer-text">Eat, Cook, Repeat</p1>
+        <br></br>
+        <br></br>
+        <p4 className="footer2-text">
+          Share Your Best Recipe By Uploading Here !
+        </p4>
+      </footer>
     </div>
   );
 };

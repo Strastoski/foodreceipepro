@@ -2,6 +2,14 @@ import React from "react";
 import bgRecipe from "../Image/food.png";
 import bgSearch from "../Image/search.png";
 import Nav from "../components/Nav";
+import bgBanana from "../Image/Banana.png";
+import bgBurger2 from "../Image/burger2.png";
+import bgCake from "../Image/cake.png";
+import bgDimsum from "../Image/dimsum.png";
+import bgIndian from "../Image/indian.png";
+import bgSalmon from "../Image/salmon.png";
+import bgSoup from "../Image/soup.png";
+import bgBread from "../Image/bread.png";
 
 const Home = () => {
   return (
@@ -9,8 +17,9 @@ const Home = () => {
       {/* Nav */}
       <Nav></Nav>
       {/* End Nav */}
+
       <div className="hero">
-        <div className="left-hero">
+        <div className="left-hero-landing">
           <div className="left-hero-content">
             <h1 className="hero-title">Discover Recipe</h1>
             <h1 className="hero-title hero-title-bottom">& Delicious Food</h1>
@@ -35,27 +44,217 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="right-hero"></div>
-
-        {/* <div className="yellow-hero"></div> */}
-
-        <div
-          style={{
-            position: "absolute",
-            top: 110,
-            right: 120,
-            display: "flex",
-            justifyContent: "space-evenly",
-            backgroundImage: `url(${bgRecipe})`,
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-            width: 350,
-            height: 350,
-          }}
-        />
+        <div className="right-hero-landing"></div>
       </div>
+
+      <div className="yellow-hero"></div>
+
+      <div
+        style={{
+          position: "absolute",
+          top: 110,
+          right: 120,
+          display: "flex",
+          justifyContent: "space-evenly",
+          backgroundImage: `url(${bgRecipe})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          width: 350,
+          height: 350,
+          zIndex: 10,
+        }}
+      />
+
+      {/* second page */}
+      <div className="pop">
+        <div className="header-popular-container">
+          <div className="ract"></div>
+          <h1 className="title-pop">Popular For You!</h1>
+        </div>
+        <div className="popular-img-container">
+          <div className="pop-img-container">
+            <div
+              style={{
+                position: "absolute",
+                top: 20,
+                left: 70,
+                display: "flex",
+                justifyContent: "space-evenly",
+                backgroundImage: `url(${bgBread})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: 410,
+                height: 410,
+                zIndex: 1,
+              }}
+            />
+          </div>
+          <div className="new-recipe-container">
+            <div className="left-recepe-yellow"></div>
+            <div className="right-recipe2">
+              <h1>Healty Bone Broth</h1>
+              <h1 className="ramen-text">Ramen (Quick & Easy)</h1>
+              <div className="line-ramen"></div>
+              <p className="p-color">
+                Quick + Easy Chicken Bone Broth Ramen -{" "}
+              </p>
+              <p className="p-color ramen-text-p">
+                Healty chicken ramen in hurry? That's right!
+              </p>
+              <button className="new-recipe-button">Learn More</button>
+            </div>
+          </div>
+
+          <div className="pop-img-container"></div>
+        </div>
+      </div>
+      {/* NEXT PAGE */}
+      <div className="pop">
+        <div className="header-popular-container">
+          <div className="ract"></div>
+          <h1 className="title-pop">New Recipe</h1>
+          <div
+            style={{
+              position: "absolute",
+              top: 150,
+              left: 50,
+              display: "flex",
+              justifyContent: "space-evenly",
+              backgroundImage: `url(${bgBurger2})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              width: 380,
+              height: 380,
+              zIndex: 1,
+            }}
+          />
+        </div>
+        <div className="new-recipe-container">
+          <div className="left-recepe-yellow"></div>
+          <div className="right-recipe">
+            <h1>Healty Bone Broth</h1>
+            <h1 className="ramen-text">Ramen (Quick & Easy)</h1>
+            <div className="line-ramen"></div>
+            <p className="p-color">Quick + Easy Chicken Bone Broth Ramen - </p>
+            <p className="p-color ramen-text-p">
+              Healty chicken ramen in hurry? That's right!
+            </p>
+            <button className="new-recipe-button">Learn More</button>
+          </div>
+        </div>
+        {/* 
+            3rd PAGE */}
+        <div className="pop">
+          <div className="ract2"></div>
+          <h1 className="title-pop2">Popular Recipe</h1>
+          <div className="popre">
+            <div
+              style={{
+                backgroundImage: `url(${bgSoup})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: 380,
+                height: 380,
+                borderRadius: 10,
+              }}
+            />
+
+            <h1 className="soup-text">
+              <span>Chicken</span>
+              <span>Kare</span>
+            </h1>
+
+            <div
+              style={{
+                backgroundImage: `url(${bgDimsum})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: 380,
+                height: 380,
+                borderRadius: 10,
+              }}
+            >
+              <h1 className="bomb-text">
+                <span>Bomb</span>
+                <span>Chicken</span>
+              </h1>
+            </div>
+
+            <div
+              style={{
+                backgroundImage: `url(${bgBanana})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: 380,
+                height: 380,
+                borderRadius: 10,
+              }}
+            >
+              <h1 className="banana-text">
+                <span>Banana</span>
+                <span>Smoothie Pop</span>
+              </h1>
+            </div>
+          </div>
+
+          <div className="popre">
+            <div
+              style={{
+                backgroundImage: `url(${bgCake})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: 380,
+                height: 380,
+                borderRadius: 10,
+              }}
+            >
+              <h1 className="cake-text">
+                <span>Coffe Lava</span>
+                <span>Cake</span>
+              </h1>
+            </div>
+            <div
+              style={{
+                backgroundImage: `url(${bgSalmon})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: 380,
+                height: 380,
+                borderRadius: 10,
+              }}
+            >
+              <h1 className="salmon-text">
+                <span>Sugar</span>
+                <span>Salmon</span>
+              </h1>
+            </div>
+            <div
+              style={{
+                backgroundImage: `url(${bgIndian})`,
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                width: 380,
+                height: 380,
+                borderRadius: 10,
+              }}
+            >
+              <h1 className="indian-text">
+                <span>Indian</span>
+                <span>Salad</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer className="footer">
+        <p1 className="footer-text">Eat, Cook, Repeat</p1>
+        <br></br>
+        <br></br>
+        <p4 className="footer2-text">
+          Share Your Best Recipe By Uploading Here !
+        </p4>
+      </footer>
     </div>
   );
 };
-
 export default Home;
