@@ -106,8 +106,18 @@ code {
 
 .pop {
   width: 100%;
+  /* padding-bottom: 1rem; */
   position: relative;
   background-color: #fff5ec;
+}
+
+.pop2 {
+  width: 100%;
+  position: relative;
+  background-color: #fff5ec;
+  margin-top: -10rem;
+  padding-bottom: 1rem;
+  padding-top: 4rem;
 }
 
 .popular-img-container {
@@ -118,9 +128,31 @@ code {
   grid-template-areas: "left middle right";
 }
 
+.popular-img-container2 {
+  padding-bottom: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "left middle right";
+}
+
 .pop-img-container {
+  grid-area: "left";
   position: relative;
   z-index: 100;
+}
+
+.new-recipe-container {
+  grid-area: "middle";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 6rem;
+  margin-top: 30px;
+}
+
+.middle-popular-container {
+  grid-area: "right";
 }
 
 .pizza-text {
@@ -515,7 +547,6 @@ code {
   display: flex;
   align-items: center;
   margin-left: 5rem;
-  /* margin-top: -100px; */
 }
 
 .title-pop {
@@ -531,18 +562,18 @@ code {
   background-color: #efc81a;
 }
 
-.new-recipe-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 11rem;
-  margin-top: 30px;
-}
-
 .left-recepe-yellow {
   background-color: #efc81a;
   height: 24rem;
   width: 16rem;
+}
+
+.left-recepe-yellow2 {
+  border: 2px solid #efc81a;
+  height: 24rem;
+  width: 20rem;
+  border-radius: 7px;
+  margin: 4rem 0 0 11rem;
 }
 
 .ramen-text {
@@ -683,7 +714,7 @@ code {
 
 .footer {
   background-color: #efc81a;
-  padding: 50px;
+  padding: 0 50px 50px 50px;
   text-align: center;
   color: white;
   height: 8rem;
