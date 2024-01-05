@@ -116,7 +116,7 @@ code {
   position: relative;
   background-color: #fff5ec;
   margin-top: -10rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   padding-top: 4rem;
 }
 
@@ -645,7 +645,7 @@ code {
 
 .soup-text {
   position: absolute;
-  top: 22rem;
+  top: 36.5rem;
   left: 6rem;
   z-index: 110;
   color: #3f3a3a;
@@ -657,7 +657,7 @@ code {
 
 .bomb-text {
   position: absolute;
-  top: 22rem;
+  top: 36.5rem;
   left: 30rem;
   z-index: 110;
   color: #3f3a3a;
@@ -669,7 +669,7 @@ code {
 
 .banana-text {
   position: absolute;
-  top: 22rem;
+  top: 36.5rem;
   left: 53.5rem;
   z-index: 110;
   color: #3f3a3a;
@@ -686,7 +686,7 @@ code {
   font-size: x-large;
   display: flex;
   flex-direction: column;
-  top: 48rem;
+  top: 62rem;
   left: 6rem;
 }
 
@@ -697,7 +697,7 @@ code {
   font-size: x-large;
   display: flex;
   flex-direction: column;
-  top: 48rem;
+  top: 62rem;
   left: 30rem;
 }
 
@@ -708,27 +708,51 @@ code {
   font-size: x-large;
   display: flex;
   flex-direction: column;
-  top: 48rem;
+  top: 62rem;
   left: 53.5rem;
 }
 
 .footer {
   background-color: #efc81a;
-  padding: 0 50px 50px 50px;
-  text-align: center;
   color: white;
-  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .footer-text {
-  color: #2e266f;
-  font-size: 36px;
+  margin: 2rem 0;
 }
 
-.footer2-text {
+.footer-text-first {
+  font-size: 40px;
+  color: #2e266f;
+}
+
+.footer-text-second {
+  font-size: 13px;
+  margin-top: -2rem;
   color: #707070;
 }
 
 .right-recipe2 {
   margin-right: -22rem;
+  margin-top: -4rem;
+}
+
+.footer3 {
+  color: rgba(112, 112, 112, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  width: 60%;
+  font-size: 14px;
+  padding: 1rem 0;
+}
+
+.footer3 a {
+  text-decoration: none;
+  color: #707070;
 }
