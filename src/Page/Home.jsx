@@ -19,7 +19,7 @@ const Home = () => {
       {/* End Nav */}
 
       <div className="hero">
-        <div className="left-hero-landing">
+        <div className="left-hero-landing-home">
           <div className="left-hero-content">
             <h1 className="hero-title">Discover Recipe</h1>
             <h1 className="hero-title hero-title-bottom">& Delicious Food</h1>
@@ -66,7 +66,7 @@ const Home = () => {
       />
 
       {/* second page */}
-      <div className="pop">
+      <div className="pop-home">
         <div className="header-popular-container">
           <div className="ract"></div>
           <h1 className="title-pop">Popular For You!</h1>
@@ -111,7 +111,7 @@ const Home = () => {
         </div>
       </div>
       {/* NEXT PAGE */}
-      <div className="pop">
+      <div className="pop-home">
         <div className="header-popular-container">
           <div className="ract"></div>
           <h1 className="title-pop">New Recipe</h1>
@@ -136,7 +136,7 @@ const Home = () => {
             />
           </div>
 
-          <div className="new-recipe-container">
+          <div className="new-recipe-container2">
             <div className="right-recipe2">
               <h1>Healty Bone Broth</h1>
               <h1 className="ramen-text">Ramen (Quick & Easy)</h1>

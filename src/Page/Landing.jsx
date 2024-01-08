@@ -114,7 +114,7 @@ const Landing = () => {
       />
 
       {/* second page */}
-      <div className="pop">
+      <div className="pop-landing2">
         <div className="header-popular-container">
           <div className="ract"></div>
           <h1 className="title-pop">Popular For You!</h1>
@@ -210,7 +210,7 @@ const Landing = () => {
             }}
           />
         </div>
-        <div className="new-recipe-container">
+        <div className="new-recipe-container-landing">
           <div className="left-recepe-yellow"></div>
           <div className="right-recipe">
             <h1>Healty Bone Broth</h1>
@@ -328,12 +328,18 @@ const Landing = () => {
         </div>
       </div>
       <footer className="footer">
-        <p1 className="footer-text">Eat, Cook, Repeat</p1>
-        <br></br>
-        <br></br>
-        <p4 className="footer2-text">
-          Share Your Best Recipe By Uploading Here !
-        </p4>
+        <div className="footer-text">
+          <p className="footer-text-first">Eat, Cook, Repeat</p>
+          <p className="footer-text-second">
+            Share Your Best Recipe By Uploading Here !
+          </p>
+        </div>
+        <div className="footer3">
+          <a href="/">Product</a>
+          <a href="/">Company</a>
+          <a href="/">Learn More</a>
+          <a href="/">Get In Touch</a>
+        </div>
       </footer>
     </div>
   );

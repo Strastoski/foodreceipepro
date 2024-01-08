@@ -59,6 +59,11 @@ code {
   background-color: #fff5ec;
 }
 
+.left-hero-landing-home {
+  grid-area: left;
+  background-color: white;
+}
+
 .right-hero-landing {
   grid-area: right;
   background-color: #efc81a;
@@ -109,12 +114,42 @@ code {
   /* padding-bottom: 1rem; */
   position: relative;
   background-color: #fff5ec;
+  /* margin-top: -10rem; */
+  padding-bottom: 2rem;
+  padding-top: 4rem;
+}
+
+.pop-landing {
+  width: 100%;
+  /* padding-bottom: 1rem; */
+  position: relative;
+  /* background-color: #fff5ec; */
+  margin-top: -10rem;
+  padding-bottom: 2rem;
+  padding-top: 4rem;
+}
+
+.pop-landing2 {
+  width: 100%;
+  /* padding-bottom: 1rem; */
+  position: relative;
+  background-color: #fff5ec;
+  /* margin-top: -10rem;
+  padding-bottom: 2rem;
+  padding-top: 4rem; */
+}
+
+.pop-home {
+  width: 100%;
+  /* padding-bottom: 1rem; */
+  position: relative;
+  background-color: white;
 }
 
 .pop2 {
   width: 100%;
   position: relative;
-  background-color: #fff5ec;
+  background-color: white;
   margin-top: -10rem;
   padding-bottom: 2rem;
   padding-top: 4rem;
@@ -147,7 +182,24 @@ code {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 6rem;
+  margin-left: 15rem;
+  margin-top: 30px;
+}
+
+.new-recipe-container-landing {
+  grid-area: "middle";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.new-recipe-container2 {
+  grid-area: "middle";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20rem;
   margin-top: 30px;
 }
 
@@ -734,6 +786,7 @@ code {
   font-size: 13px;
   margin-top: -2rem;
   color: #707070;
+  text-align: center;
 }
 
 .right-recipe2 {
