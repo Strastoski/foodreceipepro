@@ -7,6 +7,8 @@ import CodeReset from "./Page/CodeResetPassword";
 import ResetPassword from "./Page/ResetPassword";
 import DetailChat from "./Page/DetailChat";
 import Landing from "./Page/Landing";
+import DetailRecipe from "./Page/DetailRecipe";
+import NavNonLog from "./components/NavNonLog";
 
 function App() {
   return (
@@ -26,6 +28,10 @@ function App() {
       <Route path="/DetailChat" element={<DetailChat />} />
 
       <Route path="/landing" element={<Landing />} />
+
+      <Route path="/DetailRecipe" element={<DetailRecipe />} />
+
+      <Route path="/DetailRecipe" element={<DetailRecipe />} />
     </Routes>
   );
 }

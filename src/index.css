@@ -809,3 +809,9 @@ code {
   text-decoration: none;
   color: #707070;
 }
+
+.detail-title {
+  text-align: center;
+  padding-top: 10rem;
+  color: rgba(46, 38, 111, 1);
+}
