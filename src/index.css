@@ -815,3 +815,9 @@ code {
   padding-top: 10rem;
   color: rgba(46, 38, 111, 1);
 }
+
+.pict-container {
+  display: flex;
+  align-items: center;
+  margin-left: 5rem;
+}
