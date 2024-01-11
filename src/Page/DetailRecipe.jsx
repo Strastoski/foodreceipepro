@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "../components/NavNonLog";
-import bgfood from "../Image/food.png";
+import bgFood from "../Image/food.png";
 
 const DetailRecipe = () => {
   return (
@@ -14,17 +14,12 @@ const DetailRecipe = () => {
       <div className="pict-container">
         <div
           style={{
-            position: "absolute",
-            top: 240,
-            left: auto,
-            display: "flex",
-            justifyContent: "space-evenly",
-            backgroundImage: `url(${bgfood})`,
+            backgroundImage: `url(${bgFood})`,
             backgroundPosition: "center",
             backgroundSize: "cover",
-            width: 380,
-            height: 380,
-            zIndex: 1,
+            width: 650,
+            height: 400,
+            borderRadius: 10,
           }}
         />
       </div>
