@@ -23,6 +23,22 @@ const DetailRecipe = () => {
           }}
         />
       </div>
+
+      <div className="ingredients-text-container">
+        <h1 className="gried-title">Ingredients</h1>
+        <div className="ing-text">
+          <p>- 2 eggs</p>
+          <p>- 2 tbsp mayonnaise</p>
+          <p>- 3 slices bread</p>
+          <p>- a little butter</p>
+          <p>- ⅓ carton of cress</p>
+          <p>
+            - 2-3 slices of tomato or a lettuce leaf and a slice of ham or
+            cheese
+          </p>
+          <p>- crisps, to serve</p>
+        </div>
+      </div>
     </div>
   );
 };

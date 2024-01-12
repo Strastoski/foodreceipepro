@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import userPanel from "../Image/User icon.svg";
 
 const NavNonLog = () => {
   return (
