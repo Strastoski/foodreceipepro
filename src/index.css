@@ -833,3 +833,24 @@ code {
   margin-left: 14rem;
   margin-top: 2rem;
 }
+
+.videostep-title {
+  margin-top: 5rem;
+  margin-left: 14rem;
+  color: rgba(63, 58, 58, 1);
+}
+
+.playbut {
+  border: 1px solid #efc81a;
+  border-radius: 6px;
+  padding: 0px 30px;
+  width: 200px;
+  height: 60px;
+  margin-left: 14rem;
+  background-color: #efc81a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+}

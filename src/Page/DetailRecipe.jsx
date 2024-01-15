@@ -38,6 +38,8 @@ const DetailRecipe = () => {
           </p>
           <p>- crisps, to serve</p>
         </div>
+        <h1 className="videostep-title">Video Step</h1>
+        <div className="playbut"></div>
       </div>
     </div>
   );
