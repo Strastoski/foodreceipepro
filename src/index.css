@@ -854,3 +854,30 @@ code {
   margin-top: 20px;
   color: white;
 }
+
+.comments {
+  width: 48rem;
+  height: 12rem;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  background-color: #efefef;
+  padding: 5 3rem;
+  color: black;
+  margin-left: 15rem;
+  margin-top: 4rem;
+}
+
+.send {
+  border: 1px solid #efc81a;
+  border-radius: 6px;
+  padding: 0px 30px;
+  width: 200px;
+  height: 40px;
+  margin-left: 30rem;
+  background-color: #efc81a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+}

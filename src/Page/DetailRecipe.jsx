@@ -40,6 +40,12 @@ const DetailRecipe = () => {
         </div>
         <h1 className="videostep-title">Video Step</h1>
         <div className="playbut"></div>
+        <div className="playbut"></div>
+        <div className="playbut"></div>
+        <div className="playbut"></div>
+
+        <input type="text" placeholder="Comment:" className="comments" />
+        <div className="send">Send</div>
       </div>
     </div>
   );
