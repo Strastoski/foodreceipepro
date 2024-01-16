@@ -46,6 +46,20 @@ const DetailRecipe = () => {
 
         <input type="text" placeholder="Comment:" className="comments" />
         <div className="send">Send</div>
+        <footer className="footer">
+          <div className="footer-text">
+            <p className="footer-text-first">Eat, Cook, Repeat</p>
+            <p className="footer-text-second">
+              Share Your Best Recipe By Uploading Here !
+            </p>
+          </div>
+          <div className="footer3">
+            <a href="/">Product</a>
+            <a href="/">Company</a>
+            <a href="/">Learn More</a>
+            <a href="/">Get In Touch</a>
+          </div>
+        </footer>
       </div>
     </div>
   );
