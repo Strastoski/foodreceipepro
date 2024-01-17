@@ -9,7 +9,7 @@ import DetailChat from "./Page/DetailChat";
 import Landing from "./Page/Landing";
 import DetailRecipe from "./Page/DetailRecipe";
 import NavNonLog from "./components/NavNonLog";
-
+import AddRecipe from "./Page/AddRecipe";
 function App() {
   return (
     <Routes>
@@ -31,7 +31,9 @@ function App() {
 
       <Route path="/DetailRecipe" element={<DetailRecipe />} />
 
-      <Route path="/DetailRecipe" element={<DetailRecipe />} />
+      {/* <Route path="/DetailRecipe" element={<DetailRecipe />} /> */}
+
+      <Route path="/AddRecipe" element={<AddRecipe />} />
     </Routes>
   );
 }
