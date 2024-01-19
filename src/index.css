@@ -882,3 +882,30 @@ code {
   color: white;
   margin-bottom: 2rem;
 }
+
+.addphoto {
+  width: 50rem;
+  height: 15rem;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  background-color: #efefef;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  /* padding-left: 80px; */
+  color: black;
+  margin-left: 12rem;
+  margin-top: 10rem;
+}
+
+.titleadd {
+  width: 50rem;
+  height: 2rem;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  background-color: #efefef;
+  padding-right: 30px;
+  color: black;
+  margin-left: 12rem;
+  margin-top: 2rem;
+}

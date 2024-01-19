@@ -7,6 +7,10 @@ const AddRecipe = () => {
       {/* Nav */}
       <Nav></Nav>
       {/* End Nav */}
+
+      <input type="text" placeholder="Add Photo" className="addphoto" />
+
+      <input type="text" placeholder="Add Photo" className="titleadd" />
     </div>
   );
 };
