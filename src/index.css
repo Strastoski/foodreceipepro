@@ -900,7 +900,7 @@ code {
 
 .titleadd {
   width: 50rem;
-  height: 2rem;
+  height: 2.5rem;
   border: 1px solid #efefef;
   border-radius: 5px;
   background-color: #efefef;
@@ -908,4 +908,32 @@ code {
   color: black;
   margin-left: 12rem;
   margin-top: 2rem;
+}
+
+.ingadd {
+  width: 50rem;
+  height: 15rem;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  background-color: #efefef;
+  padding-right: 30px;
+  color: black;
+  margin-left: 12rem;
+  margin-top: 2rem;
+}
+
+.postadd {
+  border: 1px solid #efc81a;
+  border-radius: 6px;
+  padding: 0px 30px;
+  width: 200px;
+  height: 40px;
+  margin-left: 30rem;
+  background-color: #efc81a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  color: white;
+  margin-bottom: 2rem;
 }
