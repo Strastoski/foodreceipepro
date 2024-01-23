@@ -10,6 +10,7 @@ import Landing from "./Page/Landing";
 import DetailRecipe from "./Page/DetailRecipe";
 import NavNonLog from "./components/NavNonLog";
 import AddRecipe from "./Page/AddRecipe";
+import Profile from "./Page/Profile";
 function App() {
   return (
     <Routes>
@@ -34,6 +35,8 @@ function App() {
       {/* <Route path="/DetailRecipe" element={<DetailRecipe />} /> */}
 
       <Route path="/AddRecipe" element={<AddRecipe />} />
+
+      <Route path="/Profile" element={<Profile />} />
     </Routes>
   );
 }
