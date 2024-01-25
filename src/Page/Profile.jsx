@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "../components/NavNonLog";
-import bgFood from "../Image/food.png";
+import bgProfilepic from "../Image/profilepic.png";
 
 const Profile = () => {
   return (
@@ -9,19 +9,20 @@ const Profile = () => {
       <Nav></Nav>
       {/* End Nav */}
 
-      <h1 className="detail-title">LOREAM SANDWICH</h1>
-
-      <div className="pict-container">
-        <div
-          style={{
-            backgroundImage: `url(${bgFood})`,
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-            width: 650,
-            height: 400,
-            borderRadius: 10,
-          }}
-        />
+      <div className="profile-container">
+        <div className="profilepic">
+          <div
+            style={{
+              backgroundImage: `url(${bgProfilepic})`,
+              backgroundPosition: "Center",
+              backgroundSize: "cover",
+              width: 100,
+              height: 100,
+              borderRadius: 10,
+            }}
+          />
+        </div>
+        <h1 className="proname">Garneta Sharina</h1>
       </div>
 
       <div className="ingredients-text-container">

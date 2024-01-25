@@ -937,3 +937,20 @@ code {
   color: white;
   margin-bottom: 2rem;
 }
+
+.profilepic {
+  margin-right: 20rem;
+}
+
+.proname {
+  color: black;
+  position: absolute;
+  top: 15rem;
+  left: 32rem;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
