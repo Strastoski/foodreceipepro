@@ -11,6 +11,7 @@ import DetailRecipe from "./Page/DetailRecipe";
 import NavNonLog from "./components/NavNonLog";
 import AddRecipe from "./Page/AddRecipe";
 import Profile from "./Page/Profile";
+import SavedRecipe from "./Page/SavedRecipe";
 function App() {
   return (
     <Routes>
@@ -37,6 +38,8 @@ function App() {
       <Route path="/AddRecipe" element={<AddRecipe />} />
 
       <Route path="/Profile" element={<Profile />} />
+
+      <Route path="/savedrecipe" element={<SavedRecipe />} />
     </Routes>
   );
 }
