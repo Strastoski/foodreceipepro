@@ -939,14 +939,15 @@ code {
 }
 
 .profilepic {
-  margin-right: 20rem;
+  margin-left: 36.5rem;
+  margin-top: 10rem;
 }
 
 .proname {
   color: black;
   position: absolute;
   top: 15rem;
-  left: 32rem;
+  left: 32.5rem;
 }
 
 .profile-container {
