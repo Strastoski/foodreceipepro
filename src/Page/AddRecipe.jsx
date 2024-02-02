@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../components/NavNonLog";
+// import bgImg from "../Image/imageicon.png.png";
 
 const AddRecipe = () => {
   return (
@@ -8,7 +9,7 @@ const AddRecipe = () => {
       <Nav></Nav>
       {/* End Nav */}
 
-      <input type="text" placeholder="Add Photo" className="addphoto" />
+      <input type="text" className="addphoto" />
 
       <input type="text" placeholder="Title" className="titleadd" />
 

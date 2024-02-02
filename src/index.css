@@ -955,3 +955,25 @@ code {
   align-items: center;
   margin-top: 2rem;
 }
+
+.titleadd {
+  padding: 0.5rem 1rem;
+}
+
+.ingadd {
+  padding-left: 1rem;
+}
+
+.ingadd::placeholder {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+
+.addphoto {
+  background-image: url(Image/imageicon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-indent: 20px;
+  text-align: center;
+}
