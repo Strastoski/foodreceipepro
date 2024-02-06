@@ -948,6 +948,7 @@ code {
   position: absolute;
   top: 15rem;
   left: 32.5rem;
+  font-weight: 500;
 }
 
 .profile-container {
